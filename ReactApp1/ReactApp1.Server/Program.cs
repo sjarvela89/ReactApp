@@ -12,16 +12,6 @@ builder.Services.AddOpenApi();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddCors(options =>
-{
-    options.AddDefaultPolicy(builder =>
-    {
-        builder.WithOrigins("https://localhost:51048/")
-               .AllowAnyHeader()
-               .AllowAnyMethod();
-    });
-});
-
 var app = builder.Build();
 
 // API routes should be mapped before static files

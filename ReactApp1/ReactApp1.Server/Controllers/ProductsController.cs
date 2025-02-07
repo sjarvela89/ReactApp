@@ -6,7 +6,7 @@ using ReactApp1.Server.Models;
 namespace ReactApp1.Server.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
         private readonly AppDbContext _context;

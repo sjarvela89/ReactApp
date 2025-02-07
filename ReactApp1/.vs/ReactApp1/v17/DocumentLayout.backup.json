@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.client\\src\\sites\\products.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\sites\\products.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.client\\src\\sites\\weather.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\sites\\weather.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.client\\src\\sites\\products.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\sites\\products.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\reactapp1.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\reactapp1.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.client\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.client\\src\\sites\\weather.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\sites\\weather.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -49,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.client\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -78,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,33 +94,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\vite.config.js",
+              "RelativeDocumentMoniker": "reactapp1.client\\vite.config.js",
+              "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\vite.config.js*",
+              "RelativeToolTip": "reactapp1.client\\vite.config.js*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwDkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-07T10:55:11.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReactApp1.Server.http",
+              "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\ReactApp1.Server.http",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\ReactApp1.Server.http",
+              "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\ReactApp1.Server.http",
+              "RelativeToolTip": "ReactApp1.Server\\ReactApp1.Server.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-07T10:40:48.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Products.tsx",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\Products.tsx",
               "RelativeDocumentMoniker": "reactapp1.client\\src\\sites\\Products.tsx",
               "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\Products.tsx",
               "RelativeToolTip": "reactapp1.client\\src\\sites\\Products.tsx",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwDUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwC8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-02-06T10:08:01.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "ReactApp1.Server\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T09:43:26.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Weather.tsx",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\Weather.tsx",
               "RelativeDocumentMoniker": "reactapp1.client\\src\\sites\\Weather.tsx",
@@ -120,12 +154,11 @@
               "RelativeToolTip": "reactapp1.client\\src\\sites\\Weather.tsx",
               "ViewState": "AgIAACMAAAAAAAAAAAAAwAAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-02-06T09:28:50.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T09:28:50.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -133,12 +166,11 @@
               "RelativeToolTip": "ReactApp1.Server\\Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:10:39.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T09:10:39.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "20250206090715_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Migrations\\20250206090715_InitialCreate.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Migrations\\20250206090715_InitialCreate.cs",
@@ -146,12 +178,11 @@
               "RelativeToolTip": "ReactApp1.Server\\Migrations\\20250206090715_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:10:00.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T09:10:00.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "App.tsx",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\App.tsx",
               "RelativeDocumentMoniker": "reactapp1.client\\src\\App.tsx",
@@ -159,25 +190,24 @@
               "RelativeToolTip": "reactapp1.client\\src\\App.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-02-04T11:14:48.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:14:48.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "ReactApp1.Server\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T13:59:45.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "main.jsx",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\main.jsx",
               "RelativeDocumentMoniker": "reactapp1.client\\src\\main.jsx",
@@ -185,12 +215,11 @@
               "RelativeToolTip": "reactapp1.client\\src\\main.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-02-04T11:14:20.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:14:20.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "CHANGELOG.md",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\CHANGELOG.md",
               "RelativeDocumentMoniker": "ReactApp1.Server\\CHANGELOG.md",
@@ -198,12 +227,11 @@
               "RelativeToolTip": "ReactApp1.Server\\CHANGELOG.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-02-03T17:52:27.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T17:52:27.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Models\\Product.cs",
@@ -211,12 +239,11 @@
               "RelativeToolTip": "ReactApp1.Server\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T17:51:44.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T17:51:44.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "tsconfig.json",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\tsconfig.json",
               "RelativeDocumentMoniker": "reactapp1.client\\tsconfig.json",
@@ -229,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\index.html",
               "RelativeDocumentMoniker": "reactapp1.client\\index.html",
@@ -237,25 +264,24 @@
               "RelativeToolTip": "reactapp1.client\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-02-04T11:14:13.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:14:13.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\appsettings.json",
               "RelativeDocumentMoniker": "ReactApp1.Server\\appsettings.json",
               "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\appsettings.json",
               "RelativeToolTip": "ReactApp1.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-03T17:52:27.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Program.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Program.cs",
@@ -263,12 +289,11 @@
               "RelativeToolTip": "ReactApp1.Server\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T17:54:26.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T17:54:26.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Data\\AppDbContext.cs",
@@ -276,12 +301,11 @@
               "RelativeToolTip": "ReactApp1.Server\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T17:50:24.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T17:50:24.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ReactApp1.Server.csproj",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\ReactApp1.Server.csproj",
               "RelativeDocumentMoniker": "ReactApp1.Server\\ReactApp1.Server.csproj",
@@ -289,12 +313,11 @@
               "RelativeToolTip": "ReactApp1.Server\\ReactApp1.Server.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-03T17:46:09.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T17:46:09.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\WeatherForecast.cs",
@@ -302,8 +325,7 @@
               "RelativeToolTip": "ReactApp1.Server\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T13:59:42.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T13:59:42.259Z"
             }
           ]
         }

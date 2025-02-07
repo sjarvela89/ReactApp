@@ -45,7 +45,7 @@ const Products = () => {
 
   async function populateWeatherData() {
     try {
-        const response = await fetch('products');
+        const response = await fetch('api/products');
       if (response.ok) {
         const data: Product[] = await response.json();
         setProducts(data);

@@ -1,14 +1,14 @@
 import {React,  useEffect, useState} from 'react';
 
 interface Product {
-    id: number;
+    id?: number;
     name: string;
-    price: number;
+    price: string;
   }
 
 const Products = () => {
     const [products, setProducts] = useState<Product[] | undefined>(undefined);
-    const [product, setProduct] = useState({
+    const [product, setProduct] = useState<Product|undefined>({
         name: "Test Post Product",
         price: "99.99"
     });

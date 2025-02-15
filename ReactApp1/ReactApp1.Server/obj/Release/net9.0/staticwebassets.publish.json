@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "npor0mCauW9flI2jC5Ls3sqd2HkkA4WwcRH1s+egs+k=",
+  "Hash": "v9SNDTmQZ3V8B29wGzAadR0t8Wm9DQJjodPKtPW3BZs=",
   "Source": "ReactApp1.Server",
   "BasePath": "_content/ReactApp1.Server",
   "Mode": "Default",
@@ -20,6 +20,27 @@
   ],
   "DiscoveryPatterns": [],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-CLyw6OL3.js",
+      "SourceId": "reactapp1.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "assets/index-CLyw6OL3.js",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7neg0qehsj",
+      "Integrity": "3YkCRLbj2GHX1glLVDO9NGIRzbZdCqDSqhxdp+4e3Us=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-CLyw6OL3.js"
+    },
     {
       "Identity": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-CuSPTGuY.css",
       "SourceId": "reactapp1.client",
@@ -42,27 +63,6 @@
       "OriginalItemSpec": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-CuSPTGuY.css"
     },
     {
-      "Identity": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-Ds0vS5XQ.js",
-      "SourceId": "reactapp1.client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\",
-      "BasePath": "/",
-      "RelativePath": "assets/index-Ds0vS5XQ.js",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "vro9f3frvf",
-      "Integrity": "VQ97DDFS0xmOkKIQor96jK7bZ6IMVKhmytlADFyz6xI=",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-Ds0vS5XQ.js"
-    },
-    {
       "Identity": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\index.html",
       "SourceId": "reactapp1.client",
       "SourceType": "Discovered",
@@ -77,8 +77,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4emaa806ma",
-      "Integrity": "JIaPbcY3HRWOJyaqi1GHze/rhMlckJTYCv+b79JkT8c=",
+      "Fingerprint": "a6faxtovns",
+      "Integrity": "rv+bq5u5rkjM7C9Bgbihpeh6icCIz7l4E2XRH5EUxYc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\index.html"
@@ -147,6 +147,48 @@
       "OriginalItemSpec": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\vite.svg"
     },
     {
+      "Identity": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\3ip5tit4ui-7neg0qehsj.br",
+      "SourceId": "reactapp1.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "assets/index-CLyw6OL3.js.br",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-CLyw6OL3.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "lhkn6otrjv",
+      "Integrity": "eX1Oudnh9hcWL12sBbTyh89brbl49Ma7ig5c4Fmtf+8=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-CLyw6OL3.js"
+    },
+    {
+      "Identity": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\3ip5tit4ui-7neg0qehsj.gz",
+      "SourceId": "reactapp1.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "assets/index-CLyw6OL3.js.gz",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-CLyw6OL3.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "peovo2ts56",
+      "Integrity": "Ub1jUIR/xdAo1w47WE8z1Jg80m6TkTwPkXWdqzYvDXo=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-CLyw6OL3.js"
+    },
+    {
       "Identity": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\eayi7xqz77-n30e2e9pmk.br",
       "SourceId": "reactapp1.client",
       "SourceType": "Discovered",
@@ -189,7 +231,7 @@
       "OriginalItemSpec": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-CuSPTGuY.css"
     },
     {
-      "Identity": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\j48akz7x0r-4emaa806ma.br",
+      "Identity": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\j48akz7x0r-a6faxtovns.br",
       "SourceId": "reactapp1.client",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
@@ -203,14 +245,14 @@
       "RelatedAsset": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "bgwl1p2vwu",
-      "Integrity": "ixxj85kxGBtuGcSAuHZCFYuCdUYCmOg8d6LaVI1bTks=",
+      "Fingerprint": "1bdblkhjgy",
+      "Integrity": "4xLyvuQbhsqgAa5loOKOz+ugsoRkcdTpzu9+5pP2rj4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\index.html"
     },
     {
-      "Identity": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\j48akz7x0r-4emaa806ma.gz",
+      "Identity": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\j48akz7x0r-a6faxtovns.gz",
       "SourceId": "reactapp1.client",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
@@ -224,56 +266,251 @@
       "RelatedAsset": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kedopwbbby",
-      "Integrity": "3AKsNeRIZ8ozPmgFMFgO03JzrhnarrtWctVBdQYgKDg=",
+      "Fingerprint": "z08mvfbjyg",
+      "Integrity": "3aI/z7hz6jL7zzVlnT+firmrmlCauh0gsXd3fDijxCw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\qy625l6kld-vro9f3frvf.br",
-      "SourceId": "reactapp1.client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
-      "BasePath": "/",
-      "RelativePath": "assets/index-Ds0vS5XQ.js.br",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-Ds0vS5XQ.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "br",
-      "Fingerprint": "nrbgtjj5bf",
-      "Integrity": "bYf2mYDSl3XusBRknv9C06m1dEVy+LV1Bjsg3S4OC14=",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-Ds0vS5XQ.js"
-    },
-    {
-      "Identity": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\qy625l6kld-vro9f3frvf.gz",
-      "SourceId": "reactapp1.client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
-      "BasePath": "/",
-      "RelativePath": "assets/index-Ds0vS5XQ.js.gz",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-Ds0vS5XQ.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "1nq2mon5vh",
-      "Integrity": "oya2VO+n2ePP5c3+5DnsNDBtKHXlFb61wyVGFdfCqEM=",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-Ds0vS5XQ.js"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "assets/index-CLyw6OL3.js",
+      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-CLyw6OL3.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "180406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3YkCRLbj2GHX1glLVDO9NGIRzbZdCqDSqhxdp+4e3Us=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3YkCRLbj2GHX1glLVDO9NGIRzbZdCqDSqhxdp+4e3Us="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-CLyw6OL3.js",
+      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\3ip5tit4ui-7neg0qehsj.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000019184652"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52124"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eX1Oudnh9hcWL12sBbTyh89brbl49Ma7ig5c4Fmtf+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3YkCRLbj2GHX1glLVDO9NGIRzbZdCqDSqhxdp+4e3Us=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3YkCRLbj2GHX1glLVDO9NGIRzbZdCqDSqhxdp+4e3Us="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-CLyw6OL3.js",
+      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\3ip5tit4ui-7neg0qehsj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000016823688"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59439"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ub1jUIR/xdAo1w47WE8z1Jg80m6TkTwPkXWdqzYvDXo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3YkCRLbj2GHX1glLVDO9NGIRzbZdCqDSqhxdp+4e3Us=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3YkCRLbj2GHX1glLVDO9NGIRzbZdCqDSqhxdp+4e3Us="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-CLyw6OL3.js.br",
+      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\3ip5tit4ui-7neg0qehsj.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eX1Oudnh9hcWL12sBbTyh89brbl49Ma7ig5c4Fmtf+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eX1Oudnh9hcWL12sBbTyh89brbl49Ma7ig5c4Fmtf+8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-CLyw6OL3.js.gz",
+      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\3ip5tit4ui-7neg0qehsj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ub1jUIR/xdAo1w47WE8z1Jg80m6TkTwPkXWdqzYvDXo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ub1jUIR/xdAo1w47WE8z1Jg80m6TkTwPkXWdqzYvDXo="
+        }
+      ]
+    },
     {
       "Route": "assets/index-CuSPTGuY.css",
       "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-CuSPTGuY.css",
@@ -297,7 +534,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -336,7 +573,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -391,7 +628,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -444,7 +681,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -489,7 +726,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -512,243 +749,6 @@
       ]
     },
     {
-      "Route": "assets/index-Ds0vS5XQ.js",
-      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\assets\\index-Ds0vS5XQ.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "180012"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VQ97DDFS0xmOkKIQor96jK7bZ6IMVKhmytlADFyz6xI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VQ97DDFS0xmOkKIQor96jK7bZ6IMVKhmytlADFyz6xI="
-        }
-      ]
-    },
-    {
-      "Route": "assets/index-Ds0vS5XQ.js",
-      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\qy625l6kld-vro9f3frvf.br",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "br",
-          "Quality": "0.000019252984"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51939"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bYf2mYDSl3XusBRknv9C06m1dEVy+LV1Bjsg3S4OC14=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"VQ97DDFS0xmOkKIQor96jK7bZ6IMVKhmytlADFyz6xI=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VQ97DDFS0xmOkKIQor96jK7bZ6IMVKhmytlADFyz6xI="
-        }
-      ]
-    },
-    {
-      "Route": "assets/index-Ds0vS5XQ.js",
-      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\qy625l6kld-vro9f3frvf.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000016876213"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "59254"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oya2VO+n2ePP5c3+5DnsNDBtKHXlFb61wyVGFdfCqEM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"VQ97DDFS0xmOkKIQor96jK7bZ6IMVKhmytlADFyz6xI=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VQ97DDFS0xmOkKIQor96jK7bZ6IMVKhmytlADFyz6xI="
-        }
-      ]
-    },
-    {
-      "Route": "assets/index-Ds0vS5XQ.js.br",
-      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\qy625l6kld-vro9f3frvf.br",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51939"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bYf2mYDSl3XusBRknv9C06m1dEVy+LV1Bjsg3S4OC14=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-bYf2mYDSl3XusBRknv9C06m1dEVy+LV1Bjsg3S4OC14="
-        }
-      ]
-    },
-    {
-      "Route": "assets/index-Ds0vS5XQ.js.gz",
-      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\qy625l6kld-vro9f3frvf.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "59254"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oya2VO+n2ePP5c3+5DnsNDBtKHXlFb61wyVGFdfCqEM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-oya2VO+n2ePP5c3+5DnsNDBtKHXlFb61wyVGFdfCqEM="
-        }
-      ]
-    },
-    {
       "Route": "index.html",
       "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\dist\\index.html",
       "Selectors": [],
@@ -767,11 +767,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JIaPbcY3HRWOJyaqi1GHze/rhMlckJTYCv+b79JkT8c=\""
+          "Value": "\"rv+bq5u5rkjM7C9Bgbihpeh6icCIz7l4E2XRH5EUxYc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -781,18 +781,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JIaPbcY3HRWOJyaqi1GHze/rhMlckJTYCv+b79JkT8c="
+          "Value": "sha256-rv+bq5u5rkjM7C9Bgbihpeh6icCIz7l4E2XRH5EUxYc="
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\j48akz7x0r-4emaa806ma.br",
+      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\j48akz7x0r-a6faxtovns.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.005319148936"
+          "Quality": "0.005434782609"
         }
       ],
       "ResponseHeaders": [
@@ -802,15 +802,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "187"
+          "Value": "183"
         },
         {
           "Name": "ETag",
-          "Value": "\"ixxj85kxGBtuGcSAuHZCFYuCdUYCmOg8d6LaVI1bTks=\""
+          "Value": "\"4xLyvuQbhsqgAa5loOKOz+ugsoRkcdTpzu9+5pP2rj4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -830,24 +830,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JIaPbcY3HRWOJyaqi1GHze/rhMlckJTYCv+b79JkT8c=\""
+          "Value": "W/\"rv+bq5u5rkjM7C9Bgbihpeh6icCIz7l4E2XRH5EUxYc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JIaPbcY3HRWOJyaqi1GHze/rhMlckJTYCv+b79JkT8c="
+          "Value": "sha256-rv+bq5u5rkjM7C9Bgbihpeh6icCIz7l4E2XRH5EUxYc="
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\j48akz7x0r-4emaa806ma.gz",
+      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\j48akz7x0r-a6faxtovns.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003367003367"
+          "Quality": "0.003355704698"
         }
       ],
       "ResponseHeaders": [
@@ -857,15 +857,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "296"
+          "Value": "297"
         },
         {
           "Name": "ETag",
-          "Value": "\"3AKsNeRIZ8ozPmgFMFgO03JzrhnarrtWctVBdQYgKDg=\""
+          "Value": "\"3aI/z7hz6jL7zzVlnT+firmrmlCauh0gsXd3fDijxCw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -885,19 +885,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JIaPbcY3HRWOJyaqi1GHze/rhMlckJTYCv+b79JkT8c=\""
+          "Value": "W/\"rv+bq5u5rkjM7C9Bgbihpeh6icCIz7l4E2XRH5EUxYc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JIaPbcY3HRWOJyaqi1GHze/rhMlckJTYCv+b79JkT8c="
+          "Value": "sha256-rv+bq5u5rkjM7C9Bgbihpeh6icCIz7l4E2XRH5EUxYc="
         }
       ]
     },
     {
       "Route": "index.html.br",
-      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\j48akz7x0r-4emaa806ma.br",
+      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\j48akz7x0r-a6faxtovns.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -906,7 +906,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "187"
+          "Value": "183"
         },
         {
           "Name": "Content-Type",
@@ -914,11 +914,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ixxj85kxGBtuGcSAuHZCFYuCdUYCmOg8d6LaVI1bTks=\""
+          "Value": "\"4xLyvuQbhsqgAa5loOKOz+ugsoRkcdTpzu9+5pP2rj4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -936,13 +936,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ixxj85kxGBtuGcSAuHZCFYuCdUYCmOg8d6LaVI1bTks="
+          "Value": "sha256-4xLyvuQbhsqgAa5loOKOz+ugsoRkcdTpzu9+5pP2rj4="
         }
       ]
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\j48akz7x0r-4emaa806ma.gz",
+      "AssetFile": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\obj\\Release\\net9.0\\compressed\\publish\\j48akz7x0r-a6faxtovns.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -951,7 +951,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "296"
+          "Value": "297"
         },
         {
           "Name": "Content-Type",
@@ -959,11 +959,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3AKsNeRIZ8ozPmgFMFgO03JzrhnarrtWctVBdQYgKDg=\""
+          "Value": "\"3aI/z7hz6jL7zzVlnT+firmrmlCauh0gsXd3fDijxCw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 09:57:27 GMT"
+          "Value": "Sat, 15 Feb 2025 10:40:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -981,7 +981,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3AKsNeRIZ8ozPmgFMFgO03JzrhnarrtWctVBdQYgKDg="
+          "Value": "sha256-3aI/z7hz6jL7zzVlnT+firmrmlCauh0gsXd3fDijxCw="
         }
       ]
     },

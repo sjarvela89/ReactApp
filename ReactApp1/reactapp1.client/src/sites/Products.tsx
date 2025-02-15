@@ -8,6 +8,10 @@ interface Product {
 
 const Products = () => {
     const [products, setProducts] = useState<Product[] | undefined>(undefined);
+    const [product, setProduct] = useState({
+        name: "Test Post Product",
+        price: "99.99"
+    });
     useEffect(() => {
         populateWeatherData();
     }, []);
@@ -37,11 +41,33 @@ const Products = () => {
 
   return (
     <div>
-      <h1 id="tableLabel">Product prices</h1>
+          <h1 id="tableLabel">Product prices</h1>
+          <button onClick={postData}> Post Button</button>
       <p>This component fetches data from local database.</p>
       {contents}
     </div>
   );
+
+  async function postData(){
+      try {
+          const response = await fetch("api/products", {
+              method: "POST",
+              headers: {
+                  "Content-Type": "application/json",  // Important for JSON payload
+              },
+              body: JSON.stringify(product),  // Convert product object to JSON
+          });
+
+          if (!response.ok) {
+              throw new Error("Failed to add product");
+          }
+
+          const data = await response.json();
+          console.log("Product added:", data);
+      } catch (error) {
+          console.error("Error:", error);
+      }
+  }
 
   async function populateWeatherData() {
     try {

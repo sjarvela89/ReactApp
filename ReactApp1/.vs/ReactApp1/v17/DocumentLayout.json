@@ -118,12 +118,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
@@ -134,8 +130,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T16:40:24.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T16:40:24.603Z"
             },
             {
               "$type": "Document",
@@ -159,8 +154,7 @@
               "RelativeToolTip": "reactapp1.client\\src\\sites\\Login.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-02-16T11:01:58.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T11:01:58.157Z"
             },
             {
               "$type": "Document",
@@ -170,7 +164,7 @@
               "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Controllers\\AuthController.cs",
               "RelativeToolTip": "ReactApp1.Server\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T10:59:37.35Z",
               "EditorCaption": ""
@@ -185,8 +179,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Helpers\\TokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T10:58:00.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T10:58:00.744Z"
             },
             {
               "$type": "Document",
@@ -198,8 +191,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAmwCAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:43:26.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T09:43:26.074Z"
             },
             {
               "$type": "Document",
@@ -259,8 +251,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T17:51:44.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T17:51:44.825Z"
             },
             {
               "$type": "Document",
@@ -296,8 +287,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T17:50:24.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T17:50:24.158Z"
             },
             {
               "$type": "Document",
@@ -309,8 +299,7 @@
               "RelativeToolTip": "ReactApp1.Server\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-03T17:52:27.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T17:52:27.585Z"
             },
             {
               "$type": "Document",
@@ -322,8 +311,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Program.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAmwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T17:54:26.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T17:54:26.972Z"
             },
             {
               "$type": "Document",
@@ -335,8 +323,7 @@
               "RelativeToolTip": "reactapp1.client\\src\\sites\\Products.tsx",
               "ViewState": "AgIAADcAAAAAAAAAAAAmwFgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-02-06T10:08:01.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T10:08:01.041Z"
             },
             {
               "$type": "Document",
@@ -457,6 +444,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T13:59:42.259Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

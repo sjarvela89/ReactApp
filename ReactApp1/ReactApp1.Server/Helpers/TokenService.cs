@@ -22,7 +22,7 @@
             var claims = new List<Claim>
         {
             new Claim(ClaimTypes.Name, username),
-            new Claim(ClaimTypes.Role, "User")  // Add roles as needed
+            new Claim(ClaimTypes.Role, "BasicUser")  // Add roles as needed
         };
 
             var token = new JwtSecurityToken(

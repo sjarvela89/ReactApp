@@ -1,65 +1,47 @@
-import {React,  useEffect, useState} from 'react';
+import { useEffect, useState } from "react";
 
-interface Forecast {
-    date: string;
-    temperatureC: number;
-    temperatureF: number;
-    summary: string;
-  }
+const API_KEY = "57bf91067fa3fd8d0eae638e2baf0334";
+const CITY = "Inari";
+const COUNTRY = "FI";
+interface WeatherInfo {
+    name: string;
+    weather: { description: string }[];
+    main: { temp: number, humidity: number };
+    wind: { speed: number };
+}
+export default function Weather() {
+    const [weather, setWeather] = useState<WeatherInfo|null>(null);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
-const Weather = () => {
-    const [forecasts, setForecasts] = useState<Forecast[] | undefined>(undefined);
     useEffect(() => {
-        populateWeatherData();
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=Inari&appid=${API_KEY}&units=metric`)
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Weather data not found");
+                }
+                return response.json();
+            })
+            .then((data) => {
+                setWeather(data as WeatherInfo);
+                setLoading(false);
+            })
+            .catch((error) => {
+                setError(error.message);
+                setLoading(false);
+            });
     }, []);
-    const contents = forecasts === undefined
-    ? (
-      <p>
-        <em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em>
-      </p>
-    ) : (
-      <table className="table table-striped" aria-labelledby="tableLabel">
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Temp. (C)</th>
-            <th>Temp. (F)</th>
-            <th>Summary</th>
-          </tr>
-        </thead>
-        <tbody>
-          {forecasts.map((forecast) => (
-            <tr key={forecast.date}>
-              <td>{forecast.date}</td>
-              <td>{forecast.temperatureC}</td>
-              <td>{forecast.temperatureF}</td>
-              <td>{forecast.summary}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+
+    if (loading) return <p>Loading weather data...</p>;
+    if (error) return <p>Error: {error}</p>;
+
+    return (
+        <div className="p-4 bg-blue-100 rounded-lg shadow-lg text-center">
+            <h2 className="text-xl font-bold">Weather in {weather?.name}</h2>
+            <p className="text-lg">{weather?.weather[0].description}</p>
+            <p className="text-lg">Temperature: {weather?.main.temp} &deg;C</p>
+            <p className="text-lg">Humidity: {weather?.main.humidity}%</p>
+            <p className="text-lg">Wind Speed: {weather?.wind.speed} m/s</p>
+        </div>
     );
-
-  return (
-    <div>
-      <h1 id="tableLabel">Weather forecast</h1>
-      <p>This component demonstrates fetching data from the server.</p>
-      {contents}
-    </div>
-  );
-
-  async function populateWeatherData() {
-    try {
-      const response = await fetch('weatherforecast');
-      if (response.ok) {
-        const data: Forecast[] = await response.json();
-        setForecasts(data);
-      }
-    } catch (error) {
-      console.error("Error fetching weather data:", error);
-    }
-  }
-
-};
-
-export default Weather;
+}

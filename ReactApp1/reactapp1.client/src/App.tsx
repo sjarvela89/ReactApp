@@ -5,6 +5,7 @@ import Home from './sites/Home';
 import Weather from './sites/Weather';
 import WeatherForecast from './sites/Weather';
 import Products from './sites/Products';
+import Login from './sites/Login';
 
 // Define the forecast type
 interface Forecast {
@@ -14,14 +15,17 @@ interface Forecast {
   summary: string;
 }
 
+
 function App() {
     return (
         <Router>
           <nav>
             <ul className="flex space-x-4">
                     <Link to="/">Home</Link>
-                <br></br>
-                <Link to="/weather">Weather</Link>
+                    <br></br>
+                    <Link to="/weather">Weather</Link>
+                    <br></br>
+                    <Link to="/login">Login</Link>
                 <br></br>
                 <Link to="/products">Products</Link>
             </ul>
@@ -30,7 +34,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/weather" element={<Weather />} />
-            <Route path="/products" element={<Products />} />
+                <Route path="/products" element={<Products />} />
+                <Route path="/login" element={<Login />} />
           </Routes>
         </Router>
       );

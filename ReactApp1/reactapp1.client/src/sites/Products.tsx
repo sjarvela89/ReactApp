@@ -50,9 +50,11 @@ const Products = () => {
 
   async function postData(){
       try {
+          const token = localStorage.getItem("token");
           const response = await fetch("api/products", {
               method: "POST",
               headers: {
+                  "Authorization": `Bearer ${token}`,
                   "Content-Type": "application/json",  // Important for JSON payload
               },
               body: JSON.stringify(product),  // Convert product object to JSON
@@ -70,9 +72,16 @@ const Products = () => {
   }
 
   async function populateWeatherData() {
-    try {
-        const response = await fetch('api/products');
-      if (response.ok) {
+      try {
+          const token = localStorage.getItem("token");
+          const response = await fetch('api/products', {
+              method: "GET",
+              headers: {
+                  "Authorization": `Bearer ${token}`,
+                  "Content-Type": "application/json"
+              }
+          });
+       if (response.ok) {
         const data: Product[] = await response.json();
         setProducts(data);
       }

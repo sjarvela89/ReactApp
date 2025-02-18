@@ -98,8 +98,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Weather.tsx",
+              "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\Weather.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\sites\\Weather.tsx",
+              "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\Weather.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\sites\\Weather.tsx",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-06T09:28:50.413Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
@@ -182,7 +199,8 @@
               "RelativeToolTip": "ReactApp1.Server\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T17:51:44.825Z"
+              "WhenOpened": "2025-02-03T17:51:44.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -242,7 +260,8 @@
               "RelativeToolTip": "ReactApp1.Server\\Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T17:54:26.972Z"
+              "WhenOpened": "2025-02-03T17:54:26.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -252,10 +271,9 @@
               "RelativeDocumentMoniker": "reactapp1.client\\src\\sites\\Products.tsx",
               "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\Products.tsx",
               "RelativeToolTip": "reactapp1.client\\src\\sites\\Products.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-02-06T10:08:01.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T10:08:01.041Z"
             },
             {
               "$type": "Document",
@@ -268,23 +286,6 @@
               "ViewState": "AgIAAMAPAAAAAAAAAAAmwNUPAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-02-15T10:28:39.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Weather.tsx",
-              "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\Weather.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\sites\\Weather.tsx",
-              "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\Weather.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\sites\\Weather.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-02-06T09:28:50.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",

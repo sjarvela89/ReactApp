@@ -28,6 +28,7 @@
     <ProjectReference Include="..\reactapp1.client\reactapp1.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\reactapp1.DTOs\ReactApp1.DTOs.csproj" />
   </ItemGroup>
 
 </Project>

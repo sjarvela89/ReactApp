@@ -12,10 +12,12 @@ public class AuthController : ControllerBase
 {
     private readonly TokenService _tokenService;
     private readonly AppDbContext _context;
-    public AuthController(AppDbContext context, TokenService tokenService)
+    private readonly TokenBlacklistService _tokenBlacklistService;
+    public AuthController(AppDbContext context, TokenService tokenService, TokenBlacklistService tokenBlacklistService)
     {
         _context = context;
         _tokenService = tokenService;
+        _tokenBlacklistService = tokenBlacklistService;
     }
 
     [HttpPost("login")]
@@ -26,7 +28,7 @@ public class AuthController : ControllerBase
         if (dbUser == null || !VerifyPassword(request.Password, dbUser.PasswordHash))
             return Unauthorized("Invalid credentials");
 
-        var token = _tokenService.GenerateToken(request.Username);
+        var token = _tokenService.GenerateToken(request.Username, dbUser.Role);
         return Ok(new { token });
     }
     private string HashPassword(string password)
@@ -40,6 +42,14 @@ public class AuthController : ControllerBase
     private bool VerifyPassword(string inputPassword, string storedHash)
     {
         return HashPassword(inputPassword) == storedHash;
+    }
+    [HttpPost("logout")]
+    public async Task<IActionResult> Logout([FromHeader(Name = "Authorization")] string token)
+    {
+        // Here you would add the token to the blacklist
+        await _tokenBlacklistService.BlacklistTokenAsync(token);
+
+        return Ok(new { message = "Logged out successfully" });
     }
 }
 

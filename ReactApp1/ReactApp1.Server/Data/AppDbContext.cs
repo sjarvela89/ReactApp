@@ -10,6 +10,7 @@ namespace ReactApp1.Server.Data
         // Add DbSets for your entities
         public DbSet<Product> Products { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<BlacklistedToken> BlacklistedTokens { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Product>().HasData(

@@ -1,0 +1,12 @@
+C:\Users\sjarv\Projects\ReactProject\ReactApp1\reactapp1.DTOs\bin\Debug\net9.0\ReactApp1.DTOs.deps.json
+C:\Users\sjarv\Projects\ReactProject\ReactApp1\reactapp1.DTOs\bin\Debug\net9.0\ReactApp1.DTOs.dll
+C:\Users\sjarv\Projects\ReactProject\ReactApp1\reactapp1.DTOs\bin\Debug\net9.0\ReactApp1.DTOs.pdb
+C:\Users\sjarv\Projects\ReactProject\ReactApp1\reactapp1.DTOs\obj\Debug\net9.0\ReactApp1.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sjarv\Projects\ReactProject\ReactApp1\reactapp1.DTOs\obj\Debug\net9.0\ReactApp1.DTOs.AssemblyInfoInputs.cache
+C:\Users\sjarv\Projects\ReactProject\ReactApp1\reactapp1.DTOs\obj\Debug\net9.0\ReactApp1.DTOs.AssemblyInfo.cs
+C:\Users\sjarv\Projects\ReactProject\ReactApp1\reactapp1.DTOs\obj\Debug\net9.0\ReactApp1.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\sjarv\Projects\ReactProject\ReactApp1\reactapp1.DTOs\obj\Debug\net9.0\ReactApp1.DTOs.sourcelink.json
+C:\Users\sjarv\Projects\ReactProject\ReactApp1\reactapp1.DTOs\obj\Debug\net9.0\ReactApp1.DTOs.dll
+C:\Users\sjarv\Projects\ReactProject\ReactApp1\reactapp1.DTOs\obj\Debug\net9.0\refint\ReactApp1.DTOs.dll
+C:\Users\sjarv\Projects\ReactProject\ReactApp1\reactapp1.DTOs\obj\Debug\net9.0\ReactApp1.DTOs.pdb
+C:\Users\sjarv\Projects\ReactProject\ReactApp1\reactapp1.DTOs\obj\Debug\net9.0\ref\ReactApp1.DTOs.dll

@@ -10,6 +10,9 @@ namespace ReactApp1.Server.Models
         public string Username { get; set; }
 
         [Required]
-        public string PasswordHash { get; set; }  // Store hashed password
+        public string PasswordHash { get; set; }
+
+        [Required]
+        public string Role { get; set; }
     }
 }

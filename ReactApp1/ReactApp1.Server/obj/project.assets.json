@@ -1607,6 +1607,16 @@
             "rid": "win"
           }
         }
+      },
+      "ReactApp1.DTOs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/ReactApp1.DTOs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactApp1.DTOs.dll": {}
+        }
       }
     }
   },
@@ -4518,6 +4528,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ReactApp1.DTOs/1.0.0": {
+      "type": "project",
+      "path": "../reactapp1.DTOs/ReactApp1.DTOs.csproj",
+      "msbuildProject": "../reactapp1.DTOs/ReactApp1.DTOs.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4528,7 +4543,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.1",
       "Microsoft.IdentityModel.JsonWebTokens >= 8.5.0",
-      "Microsoft.IdentityModel.Tokens >= 8.5.0"
+      "Microsoft.IdentityModel.Tokens >= 8.5.0",
+      "ReactApp1.DTOs >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4562,7 +4578,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.DTOs\\ReactApp1.DTOs.csproj": {
+              "projectPath": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.DTOs\\ReactApp1.DTOs.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

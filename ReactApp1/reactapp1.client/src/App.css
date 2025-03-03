@@ -9,3 +9,20 @@ th, td {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+nav {
+    display: flex;
+    justify-content: center; /* Centers the navigation horizontally */
+    align-items: center; /* Centers the navigation vertically */
+}
+
+ul {
+    display: flex;
+    gap: 20px; /* Adds spacing between each link */
+    padding: 0; /* Ensure no padding is added by default */
+    margin: 0; /* Remove default margin from the ul element */
+}
+
+li {
+    list-style: none; /* Removes default list style */
+}

@@ -14,7 +14,7 @@
             _config = config;
         }
 
-        public string GenerateToken(string username)
+        public string GenerateToken(string username, string role)
         {
             var jwtSettings = _config.GetSection("Jwt");
             var key = Encoding.UTF8.GetBytes(jwtSettings["Key"]!);
@@ -22,7 +22,7 @@
             var claims = new List<Claim>
         {
             new Claim(ClaimTypes.Name, username),
-            new Claim(ClaimTypes.Role, "BasicUser")  // Add roles as needed
+            new Claim(ClaimTypes.Role, role)  // Add roles as needed
         };
 
             var token = new JwtSecurityToken(

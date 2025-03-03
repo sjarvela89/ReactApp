@@ -5,6 +5,9 @@ using ReactApp1.Server.Data;
 using ReactApp1.Server.Helpers;
 using ReactApp1.Server.Models;
 using System.Security.Cryptography;
+using OtpNet;
+using QRCoder; // Install-Package QRCoder
+using System.Text;
 
 [Route("api/auth")]
 [ApiController]
@@ -27,7 +30,10 @@ public class AuthController : ControllerBase
 
         if (dbUser == null || !VerifyPassword(request.Password, dbUser.PasswordHash))
             return Unauthorized("Invalid credentials");
-
+        if (dbUser.IsMfaEnabled)
+        {
+            return Ok(new { requiresMfa = true });
+        }
         var token = _tokenService.GenerateToken(request.Username, dbUser.Role);
         return Ok(new { token });
     }
@@ -56,6 +62,56 @@ public class AuthController : ControllerBase
         await _tokenBlacklistService.BlacklistTokenAsync(token);
 
         return Ok(new { message = "Logged out successfully" });
+    }
+    [HttpPost("enable-mfa")]
+    public async Task<IActionResult> EnableMfa([FromBody] MfaSetupRequest request)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == request.Username);
+        if (user == null) return NotFound("User not found");
+
+        // Generate secret key for TOTP
+        var secretKey = KeyGeneration.GenerateRandomKey(20);
+        var base32Secret = Base32Encoding.ToString(secretKey);
+        user.MfaSecret = base32Secret;
+        user.IsMfaEnabled = true;
+
+        _context.Users.Update(user);
+        await _context.SaveChangesAsync();
+
+        // Generate QR Code
+        string issuer = "ReactApp1"; // Change to your app name
+        string otpauthUrl = $"otpauth://totp/{issuer}:{user.Username}?secret={base32Secret}&issuer={issuer}";
+
+        using var qrGenerator = new QRCodeGenerator();
+        var qrCodeData = qrGenerator.CreateQrCode(otpauthUrl, QRCodeGenerator.ECCLevel.Q);
+        var qrCode = new PngByteQRCode(qrCodeData);
+        var qrCodeBytes = qrCode.GetGraphic(20);
+
+        return File(qrCodeBytes, "image/png");
+    }
+    public class MfaSetupRequest
+    {
+        public string Username { get; set; }
+    }
+    [HttpPost("verify-mfa")]
+    public async Task<IActionResult> VerifyMfa([FromBody] MfaVerifyRequest request)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == request.Username);
+        if (user == null || string.IsNullOrEmpty(user.MfaSecret))
+            return Unauthorized("MFA not set up for this user");
+
+        var totp = new Totp(Base32Encoding.ToBytes(user.MfaSecret));
+        if (!totp.VerifyTotp(request.Code, out _))
+            return Unauthorized("Invalid MFA code");
+
+        var token = _tokenService.GenerateToken(user.Username, user.Role);
+        return Ok(new { token });
+    }
+
+    public class MfaVerifyRequest
+    {
+        public string Username { get; set; }
+        public string Code { get; set; }
     }
 }
 

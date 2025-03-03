@@ -148,6 +148,14 @@
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[8.5.0, )"
+            },
+            "Otp.NET": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.6.0, )"
             }
           },
           "imports": [

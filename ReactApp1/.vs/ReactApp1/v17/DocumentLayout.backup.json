@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.client\\src\\sites\\login.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\sites\\login.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\helpers\\tokenblacklistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.client\\src\\sites\\login.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{4A0942B2-4BE4-4C85-B1E3-143D90E0C870}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\sites\\login.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\models\\blacklistedtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\models\\blacklistedtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95D871C5-6FBE-4698-8E8A-93DCF3AB0906}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjarv\\projects\\reactproject\\reactapp1\\reactapp1.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -150,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -206,6 +206,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.tsx",
+              "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\Login.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\sites\\Login.tsx",
+              "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\Login.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\sites\\Login.tsx",
+              "ViewState": "AgIAABgAAAAAAAAAAAAWwEAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-16T11:01:58.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
               "Title": "UserManaging.tsx",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\UserManaging.tsx",
@@ -218,15 +231,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Models\\User.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Models\\User.cs",
               "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Models\\User.cs",
               "RelativeToolTip": "ReactApp1.Server\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T16:40:24.603Z"
+              "WhenOpened": "2025-02-16T16:40:24.603Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -254,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\WeatherForecast.cs",
@@ -266,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Weather.tsx",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\Weather.tsx",
               "RelativeDocumentMoniker": "reactapp1.client\\src\\sites\\Weather.tsx",
@@ -278,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Program.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Program.cs",
@@ -290,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\appsettings.json",
               "RelativeDocumentMoniker": "ReactApp1.Server\\appsettings.json",
@@ -302,13 +316,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Controllers\\AuthController.cs",
               "RelativeToolTip": "ReactApp1.Server\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAIAwwDUAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAewGMAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T10:59:37.35Z",
               "EditorCaption": ""
@@ -328,25 +342,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.tsx",
-              "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\Login.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\sites\\Login.tsx",
-              "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\reactapp1.client\\src\\sites\\Login.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\sites\\Login.tsx",
-              "ViewState": "AgIAABgAAAAAAAAAAAAWwDMAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-02-16T11:01:58.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "TokenBlacklistService.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Helpers\\TokenBlacklistService.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Helpers\\TokenBlacklistService.cs",
               "ToolTip": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Helpers\\TokenBlacklistService.cs",
               "RelativeToolTip": "ReactApp1.Server\\Helpers\\TokenBlacklistService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAtwBkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAWwBEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T19:02:23.115Z",
               "EditorCaption": ""
@@ -377,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\WeatherForecastController.cs",
@@ -390,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "BlacklistedToken.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Models\\BlacklistedToken.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Models\\BlacklistedToken.cs",
@@ -402,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\sjarv\\Projects\\ReactProject\\ReactApp1\\ReactApp1.Server\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\ProductsController.cs",

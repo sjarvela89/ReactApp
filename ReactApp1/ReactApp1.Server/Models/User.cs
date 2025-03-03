@@ -14,5 +14,9 @@ namespace ReactApp1.Server.Models
 
         [Required]
         public string Role { get; set; }
+
+        public bool IsMfaEnabled { get; set; } = true; // Indicates if MFA is enabled
+
+        public string? MfaSecret { get; set; } // Secret key for Microsoft Authenticator
     }
 }

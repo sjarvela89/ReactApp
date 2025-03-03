@@ -44,8 +44,14 @@ public class AuthController : ControllerBase
         return HashPassword(inputPassword) == storedHash;
     }
     [HttpPost("logout")]
-    public async Task<IActionResult> Logout([FromHeader(Name = "Authorization")] string token)
+    public async Task<IActionResult> Logout([FromHeader(Name = "Authorization")] string authHeader)
     {
+        if (string.IsNullOrEmpty(authHeader) || !authHeader.StartsWith("Bearer "))
+        {
+            return BadRequest(new { message = "Invalid token" });
+        }
+
+        string token = authHeader.Substring("Bearer ".Length).Trim();
         // Here you would add the token to the blacklist
         await _tokenBlacklistService.BlacklistTokenAsync(token);
 

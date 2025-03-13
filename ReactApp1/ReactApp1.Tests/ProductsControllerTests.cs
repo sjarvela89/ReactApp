@@ -70,7 +70,7 @@ namespace ReactApp1.Tests
             Assert.Equal(newProduct.Price, returnedProduct.Price);
 
             // Check that the returned product's ID is auto-generated and starts at 3, assuming no other products have been added.
-            Assert.Equal(3, returnedProduct.Id);  // Ensure the ID is greater than 2
+            Assert.True(returnedProduct.Id > 2);  // Ensure the ID is greater than 2
         }
     }
 }

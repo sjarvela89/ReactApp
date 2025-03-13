@@ -1,4 +1,4 @@
-﻿namespace ReactApp1.Tests;
+﻿ namespace ReactApp1.Tests;
 
 public class UnitTest1
 {

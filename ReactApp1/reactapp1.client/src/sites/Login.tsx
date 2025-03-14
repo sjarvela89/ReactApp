@@ -31,20 +31,28 @@ const Login = () => {
     };
 
     const handleLogin = async () => {
-        localStorage.setItem("username", username?.toString()??"");
-        const response = await fetch("api/auth/login", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ username, password }),
-        });
+        localStorage.setItem("username", username?.toString() ?? "");
+        try {
+            const response = await fetch("api/auth/login", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ username, password }),
+            });
 
-        const data = await response.json();
+            const data = await response.json();
 
-        if (data.requiresMfa) {
-            setRequiresMfa(true);
-        } else {
-            localStorage.setItem("token", data.token);
-            window.location.href = "/";
+            if (!response.ok) {
+                throw new Error(data.message || "Login failed");
+            }
+
+            if (data.requiresMfa) {
+                setRequiresMfa(true);
+            } else {
+                localStorage.setItem("token", data.token);
+                window.location.href = "/";
+            }
+        } catch (error) {
+            setError(error.message); // Set the error message here
         }
     };
 
@@ -125,7 +133,7 @@ const Login = () => {
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                         />
-                        <button onClick={handleLogin}>Login</button>
+                            <button onClick={handleLogin}>LoginButton</button>
                     </div>
                 )
             ) : (

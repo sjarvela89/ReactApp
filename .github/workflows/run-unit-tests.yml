@@ -19,10 +19,10 @@ jobs:
           dotnet-version: '9.0'
 
       - name: Install dependencies
-        run: dotnet restore
+        run: dotnet restore ReactApp1/ReactApp1.Tests
 
       - name: Run backend unit tests
-        run: dotnet test ../ReactApp1/ReactApp1.Tests --logger trx
+        run: dotnet test ReactApp1/ReactApp1.Tests --logger trx
 
   frontend-tests:
     runs-on: ubuntu-latest

@@ -36,11 +36,7 @@ jobs:
           node-version: '18'
 
       - name: Install frontend dependencies
-        run: |
-        cd ReactApp1/reactapp1.client
-        npm install
+        run: cd ReactApp1/reactapp1.client && npm install
 
       - name: Run frontend unit tests
-        run: |
-        cd ReactApp1/reactapp1.client
-        npm test
+        run: cd ReactApp1/reactapp1.client && npm test

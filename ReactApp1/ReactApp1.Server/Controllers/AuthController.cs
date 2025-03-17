@@ -8,15 +8,17 @@ using System.Security.Cryptography;
 using OtpNet;
 using QRCoder; // Install-Package QRCoder
 using System.Text;
+using static ReactApp1.Server.Helpers.TokenService;
+using static ReactApp1.Server.Helpers.TokenBlacklistService;
 
 [Route("api/auth")]
 [ApiController]
 public class AuthController : ControllerBase
 {
-    private readonly TokenService _tokenService;
+    private readonly ITokenService _tokenService;
     private readonly AppDbContext _context;
-    private readonly TokenBlacklistService _tokenBlacklistService;
-    public AuthController(AppDbContext context, TokenService tokenService, TokenBlacklistService tokenBlacklistService)
+    private readonly ITokenBlacklistService _tokenBlacklistService;
+    public AuthController(AppDbContext context, ITokenService tokenService, ITokenBlacklistService tokenBlacklistService)
     {
         _context = context;
         _tokenService = tokenService;

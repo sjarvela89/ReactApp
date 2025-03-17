@@ -4,8 +4,11 @@
     using System.Security.Claims;
     using System.Text;
     using Microsoft.IdentityModel.Tokens;
-
-    public class TokenService
+    public interface ITokenService
+    {
+        string GenerateToken(string username, string role);
+    }
+    public class TokenService : ITokenService
     {
         private readonly IConfiguration _config;
 
@@ -13,6 +16,8 @@
         {
             _config = config;
         }
+
+
 
         public string GenerateToken(string username, string role)
         {

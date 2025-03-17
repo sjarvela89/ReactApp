@@ -4,7 +4,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ReactApp1.Server.Helpers
 {
-    public class TokenBlacklistService
+    public interface ITokenBlacklistService
+    {
+        Task<bool> IsTokenBlacklistedAsync(string token);
+        Task BlacklistTokenAsync(string token);
+    }
+    public class TokenBlacklistService : ITokenBlacklistService
     {
         private readonly AppDbContext _context;
 
@@ -12,6 +17,7 @@ namespace ReactApp1.Server.Helpers
         {
             _context = context;
         }
+
 
         public async Task<bool> IsTokenBlacklistedAsync(string token)
         {

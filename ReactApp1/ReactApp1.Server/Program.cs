@@ -5,6 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using ReactApp1.Server.Helpers;
 using Microsoft.AspNetCore.Identity;
+using static ReactApp1.Server.Helpers.TokenService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,8 +46,8 @@ builder.Services.AddAuthorization();
 
 // Add services
 builder.Services.AddControllers();
-builder.Services.AddScoped<TokenService>();
-builder.Services.AddScoped<TokenBlacklistService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<ITokenBlacklistService, TokenBlacklistService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOpenApi();
 builder.Services.AddDbContext<AppDbContext>(options =>
